@@ -1,5 +1,214 @@
 body {
   margin: 0 auto;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Helvetica;
   font-size: 16px;
+}
+
+.headcontainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  border: 2px solid black;
+  height: 2em;
+  background-color: gray;
+}
+
+.header-wrapper{
+  display: flex;
+  border: 2px solid black;
+  height: 125px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.top-head-strip {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: gray;
+  border: 2px solid black;
+  height: 2em;
+  margin-right: 1em;
+}
+
+.head-stripitem a {
+  color: white;text-decoration: none;
+}
+
+.nav a {
+  color: white;
+  font-size: 1.3em;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  font-family: Arial;
+  text-decoration: none;
+}
+
+.head-stripitema a {
+  color: white;
+  padding-right: 1em;
+  padding-left: 1em;
+  text-decoration: none;
+}
+
+
+.head-stripitem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  border-right: 1px solid lightgray;
+
+  padding: 0 1em;
+}
+
+.head-con {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.head-quote a {
+  color: white;
+  text-decoration: none;
+
+}
+
+.head-quote {
+  display: flex;
+  align-items: center;
+  border: 4px solid darkgray;
+  background-color: rgba(255, 0, 0, 0.5);
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 3em;
+  width: 7em;
+  margin-right: 5em;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: bold;
+
+}
+
+.head-logo {
+  border: 2px solid black;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  height: 2em;
+  width: 50em;
+  margin-right: .8em;
+}
+
+.nav-item {
+  margin-left: 4em;
+  margin-right: 4em;
+  font-weight: lighter;
+  font-size: 1em;
+}
+
+.fade {
+  background-image: url("../images/fade.jpg");
+  width: 100%;
+  height: 600px;
+}
+
+
+.parallaxfade {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 900px;
+  background-image: url("../images/fade.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+  margin-top: 6em;
+  margin-left: 5em;
+  color: white;
+  font-size: 1em;
+  letter-spacing: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.slocon {
+  border: 3px solid black;
+  width: 50%;
+}
+
+.slogan {
+  margin-top: ;
+  margin-left: 1em;
+  color: white;
+  font-size: 4em;
+  letter-spacing: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.parallaxflag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  background-image: url("../images/re_flagbckgrnd.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+.vetcaption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 100px;
+  padding: 20px;
+  color: black;
+  font-size: 3em;
+  letter-spacing: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.parallaxelectric {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 900px;
+  background-image: url("");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
 }
