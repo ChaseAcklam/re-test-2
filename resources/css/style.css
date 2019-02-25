@@ -129,6 +129,7 @@ body {
   display: flex;
   width: 1200px;
   align-items: center;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -165,7 +166,8 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  height: 100%;
+  flex-direction: column;
+  height: 4000px;
   background-image: url("../images/wiresclean.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -173,7 +175,7 @@ body {
   background-size: cover;
   width: 100%;
   padding: 0px;
-  margin: 0px;
+  margin-bottom: 7em;
   overflow-x: hidden;
   font-family: 'Open Sans', sans-serif;
 }
@@ -278,40 +280,67 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 1800px;
+  height: 100%;
 }
 
 .founder {
-  margin: 0px 15px;
+  display: flex;
+  margin: 45px 15px;
   display: flex;
   text-align: center;
-  justify-content: center;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   font-family: 'Open Sans', sans-serif;
   color: white;
+
+  width: 100%
 }
 
-.future {
-  margin: 0px 15px;
+.expert {
+  margin-top: 12em;
+  margin-bottom: 14em;
   display: flex;
   text-align: center;
+  align-items: center;
   justify-content: center;
-  flex-direction: column;
   font-family: 'Open Sans', sans-serif;
-  color: white;
+  color: black;
+  font-size: 1.5em;
+  width: 1200px;
+}
+
+.expertstrip {
+  background-color: white;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 900px;
+}
+
+.clientmapstrip {
+  background-color: rgba(155, 155, 155, 0.7);
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 1800px;
 }
 
 .mission {
-  margin: 0px 15px;
   display: flex;
   text-align: center;
   justify-content: center;
-  flex-direction: column;
   font-family: 'Open Sans', sans-serif;
   color: white;
+  width: 100%;
+  padding-left: 9em;
 }
 
-.future h3 {
+.expert h3 {
   color: black;
   font-size: 1.5em;
 }
@@ -324,7 +353,63 @@ body {
   font-size: 1.5em;
 }
 
+.missionbox h3 {
+  font-size: 2em;
+}
 
+.teambox {
+  width: 40em;
+}
+
+.teambox h3 {
+  font-family: Helvetica;
+  font-weight: 600;
+  font-size: 3em;
+}
+
+.founderbox {
+  border-top: 2px solid white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5em;
+  padding-top: 5em;
+}
+
+.parabox h3 {
+  font-family: Helvetica;
+  font-weight: 600;
+}
+
+.davebox {
+  border-top: 2px solid white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5em;
+  padding-top: 5em;
+}
+
+.dougbox {
+  border-top: 2px solid white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5em;
+  padding-top: 5em;
+}
+
+.parabox {
+  width: 20em;
+  margin-right: 10em;
+}
+
+.expertbox {
+  width: 30em;
+  margin-right: 7em;
+}
+.missionbox {
+  width: 30em;
+  margin-right: 7em;
+  font-size: 1.2em;
+}
 
 .mapsection {
   margin-top: 6em;
@@ -353,6 +438,8 @@ body {
   flex-direction: column;
   align-items: center;
   margin-bottom: 9em;
+  margin-top: 1em;
+
 }
 
 .experience h2 {
