@@ -137,7 +137,7 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  height: 1200px;
+  height: 1000px;
   background-image: url("../images/wires.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -336,4 +336,10 @@ body {
   color: white;
   align-items: center;
   justify-content: space-between;
+}
+
+.topflag {
+  height: 6em;
+  width: 100%;
+  background-color: white;
 }
