@@ -3,7 +3,7 @@
   <head>
     <title>Reilly Electric</title>
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Open+Sans" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -50,24 +50,86 @@
       </div>
     </header>
     <div class="main">
-      <div class="parallaxfade">
-        <div class="title">
-          <h1>REILLY ELECTRIC</h1>
-        </div>
-        <div class="slocon">
-          <div class="slogan">
-            <p>Complete Electrical Installations, Repairs, Voice & Data Wiring</p>
+      <div class="parallaxtitle">
+        <div class="paracentertitle">
+          <div class="title">
+            <h1>REILLY ELECTRIC</h1>
           </div>
+          <div class="slocon">
+            <div class="slogan">
+              <p>Complete Electrical Installations, Repairs, Voice & Data Wiring</p>
+            </div>
+        </div>
         </div>
       </div>
+      <div class="stripabout">
+        <h2>About Us</h2>
+      </div>
+
+      <div class="parallaxabout">
+        <div class="aboutfade">
+          <div class="paracenterabout">
+            <div class="founder">
+              <img src="resources/images/founder.jpeg" alt="Picture of our founder">
+              <h3>Our Founder</h3>
+              <p>Lorem ipsum dolor sit amet, at illum meliore facilisi eos, ad doctus minimum recteque pri.
+                 Vim at dicant aliquip, quo partem iuvaret ut, eam ei alterum concludaturque. An per equidem
+                 disputando comprehensam, est at putent essent quodsi, quo idque fabulas sententiae ad. Ne fugit
+                 simul quaeque quo, vis idque consequuntur ei. Ipsum disputationi ius cu.</p>
+            </div>
+            <div class="future">
+              <img src="resources/images/future.jpeg" alt="Arizona Picture">
+              <h3>Our Future</h3>
+              <p>Lorem ipsum dolor sit amet, at illum meliore facilisi eos, ad doctus minimum recteque pri.
+                 Vim at dicant aliquip, quo partem iuvaret ut, eam ei alterum concludaturque. An per equidem
+                 disputando comprehensam, est at putent essent quodsi, quo idque fabulas sententiae ad. Ne fugit
+                 simul quaeque quo, vis idque consequuntur ei. Ipsum disputationi ius cu.</p>
+            </div>
+            <div class="mission">
+              <img src="resources/images/mission.jpeg" alt="Our Mission Picture">
+              <h3>Our Mission</h3>
+              <p>Lorem ipsum dolor sit amet, at illum meliore facilisi eos, ad doctus minimum recteque pri.
+                 Vim at dicant aliquip, quo partem iuvaret ut, eam ei alterum concludaturque. An per equidem
+                 disputando comprehensam, est at putent essent quodsi, quo idque fabulas sententiae ad. Ne fugit
+                 simul quaeque quo, vis idque consequuntur ei. Ipsum disputationi ius cu.</p>
+            </div>
+          </div>
+
+
+
+          <div class="mapsection">
+            <h2>Our Location</h2>
+            <div id="googleMap" style="width:100%;height:400px;"></div>
+          </div>
+        </div>
+
+      </div>
+      <script>
+        function myMap() {
+          var mapProp= {
+            center:new google.maps.LatLng(33.777125,-117.818357),
+            zoom:15,
+          };
+          var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
+      </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC27vtkXCIigFJQHrjmMRbmAvm7DAvO96E&callback=myMap"></script>
+
+
+
       <div class="parallaxflag">
         <div class="vetcaption">
           <h2>A Proud Veteran Owned Company</h2>
         </div>
 
       </div>
-      <div class="parallaxelectric">
-
+      <div class="veteranowned">
+        <h2>Support Our Troops</h2>
+        <p>We proudly support the brave men and women that protect our country, and would like to express our gratitude
+          for the risks and sacrifices they make. Please consider aiding our vets by donating to the Wounded Warrior Project, thank you. </p>
+          <h4>"The soldier above all others prays for peace, for it is the soldier who must suffer and bear the deepest wounds and scars of
+            war. - Douglas MacArthur"</h4>
+            <a href="https://support.woundedwarriorproject.org/Default.aspx?tsid=10043" target="_blank">Donate to the Wounded Warriors Project</a>
       </div>
     </div>
   </body>
