@@ -9,9 +9,8 @@ body {
   justify-content: flex-end;
   align-items: center;
   width: 100%;
-
   height: 2em;
-  background-color: rgba(25, 25, 25, 1);
+  background-color: rgb(185, 0, 0);
 }
 
 .header-wrapper{
@@ -28,14 +27,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background-color: rgba(25, 25, 25, 1);
+  background-color: rgb(185, 0, 0);
   height: 2em;
   margin-right: 1em;
 }
 
 .head-stripitem a {
-  color: white;
+  color: black;
   text-decoration: none;
+  background-color: rgb(185, 0, 0);
 }
 
 .nav a {
@@ -47,8 +47,14 @@ body {
   text-decoration: none;
 }
 
+.footstrip {
+  height: 1em;
+  width: 100%;
+  background-color: rgb(23, 89, 242);
+}
+
 .head-stripitema a {
-  color: white;
+  color: black;
   padding-right: 1em;
   padding-left: 1em;
   text-decoration: none;
@@ -59,19 +65,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(25, 25, 25, 1);
   border-right: 1px solid lightgray;
   padding: 0 1em;
+  background-color: rgb(185, 0, 0);
 }
 
 .head-con {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-
+  color: white;
 }
 
-.head-quote a {
+.head-quote p {
   color: white;
   text-decoration: none;
 
@@ -80,14 +86,13 @@ body {
 .head-quote {
   display: flex;
   align-items: center;
-  border: 2px solid white;
   background-color: black;
   border-radius: 10px;
   height: 2.4em;
-  width: 7em;
-  margin-right: 5em;
+  width: 16em;
+  margin-right: 3em;
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1em;
   font-weight: bold;
 
 }
@@ -102,6 +107,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
   height: 2em;
   width: 50em;
   margin-right: .8em;
@@ -125,12 +131,45 @@ body {
   flex-direction: column;
 }
 
+.servicetitlecenter {
+  display: flex;
+  width: 1200px;
+  margin-top: 4em;
+  flex-direction: column;
+}
+
 .paracenterabout {
   display: flex;
   width: 1200px;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.servicepara {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 2000px;
+  margin: 0 auto;
+}
+
+.servicestrip{
+  height: 3em;
+  width: 100%;
+  background-color: black;l
+}
+
+.servicefade {
+  background-color: rgba(155, 155, 155, 0.7);
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100px;
 }
 
 
@@ -159,7 +198,66 @@ body {
   font-size: 1.4em;
   width: 100%;
   height: 10em;
+  color: white;
+  background-color: black;
+}
+
+.servicecontent {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 1200px;
+  height: 100px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 2em;
+}
+
+.servtitle h2{
+ color: rgb(185, 0, 0);
+}
+
+.servlist {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 1200px;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 1em;
+}
+
+.servlisttwo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 1200px;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 1em;
+}
+
+.listbck {
+  display: flex;
+  justify-content: center;
   background-color: white;
+  width: 100%;
+  opacity: .9;
+
+
+}
+
+.listcontainer {
+  width: 1200px;
+  display: flex;
+  font-size: 1.5em;
+}
+
+.servicecontent h2 {
+  color: rgb(185, 0, 0);
+  text-align:center;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .parallaxabout {
@@ -190,11 +288,31 @@ body {
   font-weight: 300;
 }
 
+.titleservice {
+  margin-top: 6em;
+  margin-left: 4em;
+  color: white;
+  font-size: 1em;
+  letter-spacing: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
 .slocon {
   width: 60%;
 }
 
 .slogan {
+  margin-top: ;
+  margin-left: 1em;
+  color: white;
+  font-size: 4em;
+  letter-spacing: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.sloganservice {
   margin-top: ;
   margin-left: 1em;
   color: white;
@@ -364,6 +482,7 @@ body {
   font-family: Helvetica;
   font-weight: 600;
   font-size: 3em;
+  color: rgb(185, 0, 0);
 }
 
 .founderbox {
@@ -377,6 +496,7 @@ body {
 .parabox h3 {
   font-family: Helvetica;
   font-weight: 600;
+  color: rgb(185, 0, 0);
 }
 
 .davebox {
@@ -404,10 +524,21 @@ body {
   width: 30em;
   margin-right: 7em;
 }
+
+.expertbox h3{
+  color: rgb(23, 89, 242);
+}
+
 .missionbox {
   width: 30em;
   margin-right: 7em;
   font-size: 1.2em;
+}
+
+.missionbox h3 {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: rgb(185, 0, 0);
 }
 
 .mapsection {
@@ -445,7 +576,7 @@ body {
   font-family: Helvetica;
   font-weight: 900;
   font-size: 3.5em;
-  color: black;
+  color: rgb(185, 0, 0);
 }
 
 .experience p {
@@ -457,6 +588,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background-color: black;
   height: 8em;
   width: 100%;
@@ -469,7 +601,42 @@ footer {
   align-items: center;
 }
 
-.mainservice {
-  height: 900px;
+.service {
+  height: 850px;
   width: 100%;
+}
+
+.parallaxservicestitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 850px;
+  background-image: url("../images/board.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.parallaxservcontain {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100%;
+  background-image: url("../images/board2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
 }
