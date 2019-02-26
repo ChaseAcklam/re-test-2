@@ -10,6 +10,14 @@ header {
   z-index: 3;
 }
 
+.mainservice {
+  padding-top: 100px;
+}
+
+.main {
+  padding-top: 100px;
+}
+
 .headcontainer {
   display: flex;
   justify-content: flex-end;
