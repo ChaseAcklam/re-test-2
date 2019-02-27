@@ -18,6 +18,10 @@ header {
   padding-top: 100px;
 }
 
+.contactmain {
+  padding-top: 100px;
+}
+
 .headcontainer {
   display: flex;
   justify-content: flex-end;
@@ -152,6 +156,13 @@ header {
   flex-direction: column;
 }
 
+.contacttitlecenter {
+  display: flex;
+  width: 1200px;
+  margin-top: 4em;
+  flex-direction: column;
+}
+
 .paracenterabout {
   display: flex;
   width: 1200px;
@@ -171,9 +182,15 @@ header {
 }
 
 .servicestrip{
+  height: 5em;
+  width: 100%;
+  background-color: black;
+}
+
+.contactstrip {
   height: 3em;
   width: 100%;
-  background-color: black;l
+  background-color: black;
 }
 
 .servicefade {
@@ -184,6 +201,16 @@ header {
   align-items: center;
   flex-direction: column;
   height: 100px;
+}
+
+.contactfade {
+  background-color: rgba(155, 155, 155, 0.7);
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 900px;
 }
 
 
@@ -226,6 +253,18 @@ header {
   font-family: 'Open Sans', sans-serif;
   color: white;
   font-size: 2em;
+}
+
+.contactcontent {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 1200px;
+  height: 900px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 1em;
 }
 
 .servtitle h2{
@@ -312,6 +351,16 @@ header {
   font-weight: 300;
 }
 
+.titelcontact {
+  margin-top: 6em;
+  margin-left: 4em;
+  color: white;
+  font-size: 1em;
+  letter-spacing: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
 .slocon {
   width: 60%;
 }
@@ -330,6 +379,17 @@ header {
   margin-top: ;
   margin-left: 1em;
   color: white;
+  font-size: 4em;
+  letter-spacing: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.slogancontact {
+  margin-top: ;
+  margin-left: 1em;
+  color: white;
+  width: 10em;
   font-size: 4em;
   letter-spacing: 8px;
   font-family: 'Open Sans', sans-serif;
@@ -484,6 +544,10 @@ header {
   font-size: 1.5em;
 }
 
+.map {
+  height: 100%;
+}
+
 .missionbox h3 {
   font-size: 2em;
 }
@@ -620,6 +684,23 @@ footer {
   width: 100%;
 }
 
+.parallaxcontacttitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 850px;
+  background-image: url("../images/circittitle.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-top: 100px;
+  margin: 0px;
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
 .parallaxservicestitle {
   display: flex;
   align-items: flex-start;
@@ -644,6 +725,24 @@ footer {
   flex-direction: column;
   height: 100%;
   background-image: url("../images/board2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.parallaxconcontain {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 900px;
+  background-image: url("../images/circit.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
