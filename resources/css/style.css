@@ -5,21 +5,20 @@ body {
 }
 
 header {
-  position: fixed;
   width: 100%;
   z-index: 3;
 }
 
 .mainservice {
-  padding-top: 100px;
+  padding-top: 0px;
 }
 
 .main {
-  padding-top: 100px;
+  padding-top: 0px;
 }
 
 .contactmain {
-  padding-top: 100px;
+
 }
 
 .headcontainer {
@@ -67,6 +66,11 @@ header {
   letter-spacing: 2px;
   font-family: Arial;
   text-decoration: none;
+  transition: color 250ms ease-in;
+}
+
+.nav a:hover {
+  color: rgb(185, 0, 0);
 }
 
 .footstrip {
@@ -94,33 +98,21 @@ header {
 
 .head-con {
   display: flex;
-
   align-items: center;
   justify-content: center;
-
   color: white;
 }
 
 .head-quote p {
+  display: flex;
   color: white;
   text-decoration: none;
   background-color: black;
 }
 
 .head-quote {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  background-color: black;
-  border-radius: 10px;
-  height: 2.4em;
-  width: 16em;
-  margin-right: 3em;
-  text-align: center;
-  font-size: 1em;
-  font-weight: bold;
-
+  margin-right: 5rem;
+  color: white;
 }
 
 .head-logo {
@@ -136,7 +128,6 @@ header {
   color: white;
   height: 2em;
   width: 50em;
-  margin-right: 5em;
 }
 
 .nav-item {
@@ -242,6 +233,7 @@ header {
 .stripabout {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   font-family: 'Fjalla One', sans-serif;
   font-size: 1.4em;
@@ -577,6 +569,57 @@ header {
   justify-content: space-around;
   margin-top: 5em;
   padding-top: 5em;
+  padding-bottom: 5em;
+  transition: all 300ms ease-in;
+}
+
+.founderbox:hover {
+  background-color: white;
+  color: black;
+  border-top: 2px solid black;
+}
+
+.davebox:hover {
+  background-color: white;
+  color: black;
+  border-top: 2px solid black;
+}
+
+.dougbox:hover {
+  background-color: white;
+  color: black;
+  border-top: 2px solid black;
+}
+
+.meterfill {
+  width: 100%;
+  height: .6em;
+  background-color: rgb(185, 0, 0);
+}
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
+}
+
+
+.founderbox img {
+  margin-right: 5em;
+}
+
+.davebox img{
+    margin-right: 5em;
+}
+
+.dougbox img {
+    margin-right: 5em;
 }
 
 .parabox h3 {
@@ -591,6 +634,8 @@ header {
   justify-content: space-around;
   margin-top: 5em;
   padding-top: 5em;
+  padding-bottom: 5em;
+  transition: all 300ms ease-in;
 }
 
 .dougbox {
@@ -599,11 +644,14 @@ header {
   justify-content: space-around;
   margin-top: 5em;
   padding-top: 5em;
+  padding-bottom: 5em;
+  transition: all 300ms ease-in;
 }
 
 .parabox {
   width: 20em;
-  margin-right: 10em;
+  margin-right: 5em;
+  margin-left: 5em;
 }
 
 .expertbox {
@@ -647,7 +695,7 @@ header {
 
 .experience {
   display: flex;
-  width: 100%;
+  width: 90%;
   color: white;
   justify-content: center;
   text-align: center;
